@@ -32,8 +32,8 @@ Updated as project progresses
 | Charts Looking at BTC | | |
 | BCharts Stocks and bonds | | |
 | Streamlit | | tiyub |
-| Presentation  https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit?usp=sharing | Accompanied by Jupyter Notebook Discussing Implications of Findings Graphics / Visualizations Screen recordings of notebook | Gwen |
-| README.md | | |
+| [Presentation Link](https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit?usp=sharing) | Accompanied by Jupyter Notebook Discussing Implications of Findings Graphics / Visualizations Screen recordings of notebook | Gwen |
+| README.md | | tiyub|
 
 ## References
 
