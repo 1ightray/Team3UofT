@@ -4,13 +4,34 @@ Team 3: Daria, Gwen, Kahlid, Nitin, tiyub
 2022-01-04
 
 ### Questions to be Answered
-...content: add-update
+How people with low income can create a portfolio with crypto?  
+What is the Optimum portfolio, traditional training strategies combined with crypto holdings?
 
 ### Means of conducting data research
-...content: add-update
+- Past two homework assignments, API and PyViz
+- What metrics are we using
+- Wish risk metrics make sense
+- Standard deviation and correlation
+- Datasets - Find the datasets and decide which crypto we will be including
+- Which stocks we will be including in portfolio
 
 ### Primary Purpose  
-...content: add-update
+How can I create an optimum portfolio strategy with 1 risk appetite and low disposable income, compared to regular investments in S&P, Gold to not be afraid of crypto.  
+
+POTENTIALLY: 25-35 age group
+
+### Tasks
+| Task         | Objective | # Allocation |
+|--------------|:-----|:-----------|
+| Download Dataset | | Nitin |
+| Data cleanup Explore, clean and reformat | | Nitin |
+| Data Analysis | |  Nitin |
+| Scenarios/Portfolios | Only crypto Only stocks and bonds Combined | |
+| Charts Looking at BTC | | |
+| BCharts Stocks and bonds | | |
+| Streamlit | | tiyub |
+| Presentation | Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
+| | Findings Graphics / Visualizations Screen recordings of notebook | |
 
 ## References
 
