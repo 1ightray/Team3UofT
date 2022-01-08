@@ -28,20 +28,20 @@ Updated as project progresses
 | Download Dataset | | Nitin |
 | Data cleanup Explore, clean and reformat | | Nitin |
 | Data Analysis | |  Nitin |
-| Scenarios/Portfolios | Only crypto Only stocks and bonds Combined | |
+| Scenarios/Portfolios | Only crypto  Only stocks and bonds  Combined | |
 | Charts Looking at BTC | | |
 | BCharts Stocks and bonds | | |
 | Streamlit | | tiyub |
-| Presentation | Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
-| | Findings Graphics / Visualizations Screen recordings of notebook | |
+| Presentation  https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit?usp=sharing | Accompanied by Jupyter Notebook Discussing Implications of Findings Graphics / Visualizations Screen recordings of notebook | Gwen |
+| README.md | | |
 
 ## References
 
-<details><summary>Disclose</summary>  
+<details open><summary>Disclose</summary>  
 
 #### Notes  
 
-<sup><a id="ref1">1</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.
+<sup><a id="ref001">1</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.
 [More details are available here](https://intel.github.io/scikit-learn-intelex)
 <blockquote style="border-left: 0px solid #ccc; color: rgb(88, 166, 255);"><details><summary>from OS command line interface</summary>
 <br>
@@ -51,8 +51,9 @@ For example:
     $ python -m sklearnex my_application.py
 </details></blockquote>
 
+<sup><a id="ref002">2</a></sup> Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required. [streamlit.io](https://streamlit.io)
 
+<sup><a id="ref003">3</a></sup> (2021-11-02). Markdown table: How to Create a Great Looking Table. Retrieved from [markdown.land](https://markdown.land/markdown-table).
 
-<sup><a id="ref2">2</a></sup> Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required. [streamlit.io](https://streamlit.io)
 
 </details>
