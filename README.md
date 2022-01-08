@@ -21,7 +21,9 @@ How can I create an optimum portfolio strategy with 1 risk appetite and low disp
 POTENTIALLY: 25-35 age group
 
 ### Tasks
-| Task         | Objective | # Allocation |
+Updated as project progresses
+
+| Task         | Objective | Allocation |
 |--------------|:-----|:-----------|
 | Download Dataset | | Nitin |
 | Data cleanup Explore, clean and reformat | | Nitin |
