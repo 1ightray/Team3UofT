@@ -39,7 +39,7 @@ Updated as project progresses
 | Charts Looking at BTC | | |
 | Charts Stocks and bonds | | |
 | Streamlit | | tiyub |
-| Presentation | Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
+| Presentation [link](https://docs.google.com/presentation/d/1PZbbSxpeOFjUh)| Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
 | | Findings Graphics / Visualizations Screen recordings of notebook | |
 
 ### Notes
