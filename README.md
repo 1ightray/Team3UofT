@@ -38,9 +38,11 @@ Updated as project progresses
 | Scenarios/Portfolios | Only crypto Only stocks and bonds Combined | |
 | Charts Looking at BTC | | |
 | Charts Stocks and bonds | | |
-| Streamlit | | tiyub |
+| ~~~Streamlit~~~ | | |
 | Presentation [link](https://docs.google.com/presentation/d/1PZbbSxpeOFjUh)| Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
 | | Findings Graphics / Visualizations Screen recordings of notebook | |
+| MD README | | tiyub |
+| .ipynb slideshow | | tiyub |
 
 ### Notes
 - Min volatility → min drawdowns
@@ -61,20 +63,31 @@ Updated as project progresses
 - Alpaca  
 - Alpaca Crypto Trading API 2  
 - Matplot  
-- REF From Matthew Sadecki: Good library for getting all sorts of data: https://pypi.org/project/yfinance/
 
 ## References
 
 <details open><summary>Disclose</summary>    
+<!-- <details><summary>Disclose</summary>     -->
 
 #### Listing  
 
-<sup><a id="ref001">1</a></sup> Andrianto, Y., Diputra, Y. (2017-09-30). The Effect of Cryptocurrency on Investment Portfolio Effectiveness. Retrieved from [Journal of Finance and Accounting](https://----update-link-to-pdf-in-T3-resources-folder-----).
+<sup><a id="ref001">1</a></sup> Andrianto, Y., Diputra, Y. (2017-09-30). The Effect of Cryptocurrency on Investment Portfolio Effectiveness. Retrieved from [Journal of Finance and Accounting - PDF in this repo.](https://github.com/1ightray/Team3UofT/blob/main/resources/The%20Effect%20of%20Cryptocurrency%20on%20Investment%20Portfolio%20Effectiveness.pdf)
+
+<sup><a id="ref002">2</a></sup> Aroussi, Ran (2021-12-30). Download market data from Yahoo! Finance's API. Retrieved from [pypi.org](https://pypi.org/project/yfinance/).
+
+<sup><a id="ref003">3</a></sup> Speck, Matthew (2017-05-16). Presenting Code Using Jupyter Notebook Slides. Retrieved from [medium.com](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67).
+    
+<sup><a id="ref004">4</a></sup> Roepke, Mark (2019-06-05). Tips for Creating Slideshows in Jupyter. Retrieved from [markroepke.me](https://www.markroepke.me/posts/2019/06/05/tips-for-slideshows-in-jupyter.html).
+
+
 
 ### Misc.
 
-<sup><a id="ref100">100</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.
-[More details are available here](https://intel.github.io/scikit-learn-intelex)
+<details open><summary>Disclose</summary>  
+<br>
+<sup><a id="ref100">100</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.  
+
+[Details](https://intel.github.io/scikit-learn-intelex)
 <blockquote style="border-left: 0px solid #ccc; color: rgb(88, 166, 255);"><details><summary>from OS command line interface</summary>
 <br>
 For example:
@@ -84,5 +97,24 @@ For example:
 </details></blockquote>
 
 <sup><a id="ref101">101</a></sup> Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required. [streamlit.io](https://streamlit.io)
+
+<sup><a id="ref102">102</a></sup> Kiao, Ue. Clone Conda Environment (3 techniques). Retrieved from [opengenus.org](https://iq.opengenus.org/clone-conda-environment/).
+
+<sup><a id="ref103">103</a></sup> Kiao, Ue. Delete Conda Environment (7 commands). Retrieved from [opengenus.org](https://iq.opengenus.org/delete-conda-environment/).
+
+<sup><a id="ref104">104</a></sup> Conda user guide: Managing environments. Retrieved from [docs.conda.io](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+<sup><a id="ref105">105</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.  
+
+[Details](https://intel.github.io/scikit-learn-intelex)
+<blockquote style="border-left: 0px solid #ccc; color: rgb(88, 166, 255);"><details><summary>from OS command line interface</summary>
+<br>
+For example:
+
+    $ conda install scikit-learn-intelex
+    $ python -m sklearnex my_application.py
+</details></blockquote>
+
+</details>
 
 </details>
