@@ -78,8 +78,9 @@ Updated as project progresses
 
 <details open><summary>Disclose</summary>  
 <br>
-<sup><a id="ref100">100</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.
-[More details are available here](https://intel.github.io/scikit-learn-intelex)
+<sup><a id="ref100">100</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.  
+
+[Details](https://intel.github.io/scikit-learn-intelex)
 <blockquote style="border-left: 0px solid #ccc; color: rgb(88, 166, 255);"><details><summary>from OS command line interface</summary>
 <br>
 For example:
