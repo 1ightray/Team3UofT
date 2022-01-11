@@ -74,8 +74,6 @@ Updated as project progresses
 
 <sup><a id="ref002">2</a></sup> Aroussi, Ran (2021-12-30). Download market data from Yahoo! Finance's API. Retrieved from [pypi.org](https://pypi.org/project/yfinance/).
 
-
-
 ### Misc.
 
 <details open><summary>Disclose</summary>  
