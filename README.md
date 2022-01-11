@@ -38,10 +38,11 @@ Updated as project progresses
 | Scenarios/Portfolios | Only crypto Only stocks and bonds Combined | |
 | Charts Looking at BTC | | |
 | Charts Stocks and bonds | | |
-| Streamlit | | tiyub |
+| ~~~Streamlit~~~ | | |
 | Presentation [link](https://docs.google.com/presentation/d/1PZbbSxpeOFjUh)| Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
 | | Findings Graphics / Visualizations Screen recordings of notebook | |
 | MD README | | tiyub |
+| .ipynb slideshow | | tiyub |
 
 ### Notes
 - Min volatility → min drawdowns
@@ -74,6 +75,12 @@ Updated as project progresses
 
 <sup><a id="ref002">2</a></sup> Aroussi, Ran (2021-12-30). Download market data from Yahoo! Finance's API. Retrieved from [pypi.org](https://pypi.org/project/yfinance/).
 
+<sup><a id="ref003">3</a></sup> Speck, Matthew (2017-05-16). Presenting Code Using Jupyter Notebook Slides. Retrieved from [medium.com](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67).
+    
+<sup><a id="ref004">4</a></sup> Roepke, Mark (2019-06-05). Tips for Creating Slideshows in Jupyter. Retrieved from [markroepke.me](https://www.markroepke.me/posts/2019/06/05/tips-for-slideshows-in-jupyter.html).
+
+
+
 ### Misc.
 
 <details open><summary>Disclose</summary>  
@@ -94,6 +101,19 @@ For example:
 <sup><a id="ref102">102</a></sup> Kiao, Ue. Clone Conda Environment (3 techniques). Retrieved from [opengenus.org](https://iq.opengenus.org/clone-conda-environment/).
 
 <sup><a id="ref103">103</a></sup> Kiao, Ue. Delete Conda Environment (7 commands). Retrieved from [opengenus.org](https://iq.opengenus.org/delete-conda-environment/).
+
+<sup><a id="ref104">104</a></sup> Conda user guide: Managing environments. Retrieved from [docs.conda.io](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+<sup><a id="ref105">105</a></sup> Installed package of scikit-learn can be accelerated using scikit-learn-intelex.  
+
+[Details](https://intel.github.io/scikit-learn-intelex)
+<blockquote style="border-left: 0px solid #ccc; color: rgb(88, 166, 255);"><details><summary>from OS command line interface</summary>
+<br>
+For example:
+
+    $ conda install scikit-learn-intelex
+    $ python -m sklearnex my_application.py
+</details></blockquote>
 
 </details>
 
