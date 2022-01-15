@@ -1,4 +1,5 @@
 
+![alt text](Images/cover.png)
 # Optimum Portfolio Allocation for Contemporary Investment Strategies
 
 ## Creating a balanced portfolio with traditional assets and crypto assets
