@@ -1,3 +1,6 @@
+Presentation Link
+https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit#slide=id.g10af8fe7a79_0_5
+
 # By adding crypto, are we adding extra risk?
 
 Team 3: Daria, Gwen, Kahlid, Nitin, tiyub  

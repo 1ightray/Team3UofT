@@ -1,34 +1,18 @@
-# Creating a balanced portfolio with traditional assets and crypto assets
+Presentation Link
+https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit#slide=id.g10af8fe7a79_0_5
 
-*** local
+# By adding crypto, are we adding extra risk?
 
-Team 3  
-Daria, Gwen, Kahlid, Nitin, tiyub  
+Team 3: Daria, Gwen, Kahlid, Nitin, tiyub  
+2022-01-04
 
-### Means of Conducting Data Research  
----
-#### Assuming inherent risk
-- What metrics are we using - LOG Returns and DataSet Statistics
-- Which risk metrics make sense - Standard Deviation, Covariance, Correlation
-- Datasets - Find the datasets and decide which crypto we will be including
-  - Proxies for broad asset classes  
-    - Growth - S&P 500
-    - Fixed Income - BND - Vanguard Total Bond Market Index Fund ETF
-    - Safety - TNX - Treasury Yield 10 Years
-    - Crypto - CCIX [Index created as a proxy, a combination of 'BTC-USD', 'ETH-USD', 'BNB-USD', 'DOT-USD', 'SOL-USD', 'ADA-USD','DOGE-USD','XRP-USD']  
+Portfolio Optimization With Crypto  
+Reassuring people that crypto is a viable investment
 
-References: Past homework assignments, API and PyViz
 
-#### Cleaning Process
-- Drop NAs using the drop.na function
-- Inner Join based on common index to omit zero values
-- Used test to get NULL value
-
-#### Primary Purpose
-Assuming a certain level of inherent risk, we attempt to create a balanced portfolio with traditional and crypto assets.  
-
-Our results show a possible Optimum portfolio, combining traditional asset classes with crypto holdings as a balanced portfolio.
-
+### Questions to be Answered
+How people with low income can create a portfolio with crypto?  
+What is the Optimum portfolio, traditional training strategies combined with crypto holdings?
 
 ### Means of conducting data research
 - Past two homework assignments, API and PyViz
@@ -95,7 +79,7 @@ Updated as project progresses
 <sup><a id="ref002">2</a></sup> Aroussi, Ran (2021-12-30). Download market data from Yahoo! Finance's API. Retrieved from [pypi.org](https://pypi.org/project/yfinance/).
 
 <sup><a id="ref003">3</a></sup> Speck, Matthew (2017-05-16). Presenting Code Using Jupyter Notebook Slides. Retrieved from [medium.com](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67).
-
+    
 <sup><a id="ref004">4</a></sup> Roepke, Mark (2019-06-05). Tips for Creating Slideshows in Jupyter. Retrieved from [markroepke.me](https://www.markroepke.me/posts/2019/06/05/tips-for-slideshows-in-jupyter.html).
 
 
