@@ -1,39 +1,120 @@
-Presentation Link
-https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit#slide=id.g10af8fe7a79_0_5
 
-# By adding crypto, are we adding extra risk?
+# Optimum Portfolio Allocation for Contemporary Investment Strategies
 
+## Creating a balanced portfolio with traditional assets and crypto assets
 Team 3: Daria, Gwen, Kahlid, Nitin, tiyub  
-2022-01-04
-
-Portfolio Optimization With Crypto  
-Reassuring people that crypto is a viable investment
+FinTech Bootcamp - University of Toronto
 
 
-### Questions to be Answered
-How people with low income can create a portfolio with crypto?  
-What is the Optimum portfolio, traditional training strategies combined with crypto holdings?
+## Primary Purpose
+Assuming a certain level of inherent risk, we attempt to create a balanced portfolio with traditional and crypto assets
 
-### Means of conducting data research
-- Past two homework assignments, API and PyViz
-- What metrics are we using
-- Wish risk metrics make sense
-- Standard deviation and correlation
-- Datasets - Find the datasets and decide which crypto we will be including
-- Which stocks we will be including in portfolio
+- How people with low income can create a portfolio with crypto?  
+- What is the Optimum portfolio, traditional training strategies combined with crypto holdings?
+---
 
-### Timeframe/Horizon
-2014 for Bitcoin
+## Means of conducting data research
+**Metrics being used** - LOG Returns and DataSet Statistics 
 
-### Primary Purpose  
-How can I create an optimum portfolio strategy with 1 risk appetite and low disposable income, compared to regular investments in S&P, Gold to not be afraid of crypto.  
+**Risk Metrics** - Standard Deviation, Covariance, Correlation, Sharpe Ratio
 
-POTENTIALLY: 25-35 age group
+**Datasets** - datasets and crypto selection
 
-### Tasks
-Updated as project progresses
+---
 
-| Task         | Objective | Allocation |
+## Proxies for broad asset classes
+**Growth** - S&P 500 
+
+**Fixed Income** - BND - Vanguard Total Bond Market Index Fund ETF
+
+**Safety** - TNX - Treasury Yield 10 Years
+
+**Crypto** - CCIX Index created as a proxy, a combination of 'BTC-USD', 'ETH-USD', 'BNB-USD', 'DOT-USD', 'SOL-USD', 'ADA-USD','DOGE-USD','XRP-USD']
+
+**References:** Past homework assignments, API and PyViz
+
+
+## Timeframe/Horizon
+- 10 Years for Traditional Asset Classes
+- 3 Years combined for Cryptocurrencies
+
+---
+
+## Methods of Computation
+
+1. **Random Generation** of Portfolio Weights (10k combinations) using Monte Carlo simulations
+![alt text](Images/traditionalallocation.png)
+
+2. **SciPy Portfolio Optimizer** - by minimizing negative Sharpe Ratio
+
+![alt text](Images/combinedallocation.png)
+
+
+The two methods being used are used to compare and test allocation outputs
+
+## Summary of Computed Allocations
+![alt text](Images/combinedallocations2pie.png) 
+
+
+---
+
+# Creation of the CCIX Index
+Due to the varied performance and inception dates of different Cryptocurrencies, a random selection was made to select the top 10 Cryptos with the largest market cap. This number was reduced to 8. 
+
+![alt text](Images/cryptotable.png)
+
+Since all selected Cryptocurrencies have a weak correlation, choosing a single proxy was deemed inappropriate. 
+
+![alt text](Images/cryptocorr.png)
+
+The CCIX was created by applying the Random Generation and SciPy methods to determine the optimum mix of Cryptocurrencies
+
+![alt text](Images/ccixallocation.png)
+
+---
+
+# New Combined Dataset for Asset Classes
+![alt text](Images/combineddata.png)
+
+## Optimum Allocation for Traditional + Crypto Asset Classes
+![alt text](Images/newcombinedallocation.png)
+
+---
+
+# Modern Portfolio Theory - Efficient Frontier for Optimum Allocation
+The plot determines the possible optimum allocations with a Risk vs Return Relationship. The 'Red Dot' marks the maximum return for lowest risk. All allocations around the Efficient frontier curve (dash-line) represents the optimum allocation for Risk vs Return.
+
+![alt text](Images/efffront.png)
+
+---
+# Financial Planner
+
+**Return estimator**
+
+Using historical returns and Monte Carlo Simulations, the estimator constructs a possible outcome for an initial investment of $10,000, at at 95% confidence interval, using model portfolio weights.
+
+![alt text](Images/finplanner.png)
+---
+# Limitations
+
+1. Individual Proxies for Asset Classes
+2. Volume of Data - 3 Years for Crypto and 10years for Traditional 
+3. Financial planner estimate - assuming that history repeats itself [historical returns calculated] 
+4. Selection of Cryptos based on Top 10 Market Cap
+ ---
+
+ # Scope
+
+By addressing the limitations, and possibly using machine learning and NLP, the scope can be expanded to predictive analysis of optimum portfolio allocation. The average investor who is not familiar with asset picking, can find a balance between risk and return using the findings, and apply a strategic and systematic investment model to pariticipate in contemporary trading strategies.
+
+---
+# Dashboard
+
+A panel dashboard to browse the various charts and findings
+
+
+
+<!--| Task         | Objective | Allocation |
 |--------------|:-----|:-----------|
 | Download Dataset | | Nitin |
 | Data cleanup Explore, clean and reformat | | Nitin |
@@ -45,27 +126,11 @@ Updated as project progresses
 | Presentation [link](https://docs.google.com/presentation/d/1PZbbSxpeOFjUh)| Accompanied by Jupyter Notebook Discussing Implications of | Gwen |
 | | Findings Graphics / Visualizations Screen recordings of notebook | |
 | MD README | | tiyub |
-| .ipynb slideshow | | tiyub |
+| .ipynb slideshow | | tiyub |-->
+ 
 
-### Notes
-- Min volatility → min drawdowns
-- What % crypto hold to withstand % drawdown for a particular risk appetite
-- Montecarlo simulations for different paths
-- correlation
-- NO QUESTIONNAIRE
-- Assumed 3 profiles  
-  - LOW  
-    - What makes it a low risk portfolio?  
-    - Horizon and amount of income?
-	Allocate to what and why?
-  - MEDIUM
-  - HIGH  
-- Required for group - Everyone has their individual keys  
-- Finnhub api key  
-- Quandl  
-- Alpaca  
-- Alpaca Crypto Trading API 2  
-- Matplot  
+# Presentation Link
+https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit#slide=id.g10af8fe7a79_0_5
 
 ## References
 
@@ -81,8 +146,6 @@ Updated as project progresses
 <sup><a id="ref003">3</a></sup> Speck, Matthew (2017-05-16). Presenting Code Using Jupyter Notebook Slides. Retrieved from [medium.com](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67).
     
 <sup><a id="ref004">4</a></sup> Roepke, Mark (2019-06-05). Tips for Creating Slideshows in Jupyter. Retrieved from [markroepke.me](https://www.markroepke.me/posts/2019/06/05/tips-for-slideshows-in-jupyter.html).
-
-
 
 ### Misc.
 
