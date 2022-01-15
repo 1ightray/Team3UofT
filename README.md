@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Optimum Portfolio Allocation for Contemporary Investment Strategies
 
@@ -55,7 +54,6 @@ The two methods being used are used to compare and test allocation outputs
 
 ## Summary of Computed Allocations
 ![alt text](Images/combinedallocations2pie.png) 
-=======
 # Creating a balanced portfolio with traditional<br>assets and crypto assets
 
 [View the presentation slides](https://docs.google.com/presentation/d/1PZbbSxpeOFjUhglsxseEhj90RuiEs8e-7NcdnE-z-YE/edit#slide=id.g10af8fe7a79_0_5)
@@ -65,20 +63,9 @@ Daria, Gwen, Kahlid, Nitin, tiyub
 
 ### Primary Purpose
 Assuming a certain level of inherent risk, we attempt to create a balanced portfolio with traditional and crypto assets.  
->>>>>>> a2c912410ff7eac5653f7bcd3ee99b3d08c2a166
 
 Our results show a possible Optimum portfolio, combining traditional asset classes with crypto holdings as a balanced portfolio.
 
-<<<<<<< HEAD
----
-
-# Creation of the CCIX Index
-Due to the varied performance and inception dates of different Cryptocurrencies, a random selection was made to select the top 10 Cryptos with the largest market cap. This number was reduced to 8. 
-
-![alt text](Images/cryptotable.png)
-
-Since all selected Cryptocurrencies have a weak correlation, choosing a single proxy was deemed inappropriate. 
-=======
 ### Means of Conducting Data Research  
 #### Assuming inherent risk
 - What metrics are we using - LOG Returns and DataSet Statistics
@@ -124,7 +111,6 @@ yahoo finance
 
 ![i004](https://github.com/1ightray/Team3UofT/blob/main/images/i004_corr2_pip_install.png)  
 
->>>>>>> a2c912410ff7eac5653f7bcd3ee99b3d08c2a166
 
 ![alt text](Images/cryptocorr.png)
 
