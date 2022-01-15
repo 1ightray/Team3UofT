@@ -48,8 +48,12 @@ Pandas datareader
 yahoo finance
 
 
-![BitBuy logo](https://github.com/tiyub/Assignments-UTOR-VIRT-FIN-PT-11-2021-U-C/blob/main/Unit-1-FinTech-Case-Study/bitbuy-logo.png "BitBuy logo")
+![Combined Portfolio](https://github.com/1ightray/Team3UofT/blob/main/images/i001_combined_port.png)  
+![i002](https://github.com/1ightray/Team3UofT/blob/main/images/i002_port1_display_corr.png)  
 
+![i003](https://github.com/1ightray/Team3UofT/blob/main/images/i003_port1_corr_matrix.png)  
+
+![i004](https://github.com/1ightray/Team3UofT/blob/main/images/i004_corr2_pip_install.png)  
 
 
 POTENTIALLY: 25-35 age group
